@@ -20,7 +20,7 @@ export default function UserInput({onChange,userInput}){
                 required
                 value={userInput.annualInvestment}
                 onChange={(event)=>
-                    onChange('initialInvestment',event.target.value)}  />
+                    onChange('annualInvestment',event.target.value)}  />
             </p>
         </div>
 
@@ -32,7 +32,7 @@ export default function UserInput({onChange,userInput}){
                 required
                 value={userInput.expectedReturn}
                 onChange={(event)=>
-                    onChange('initialInvestment',event.target.value)}  />
+                    onChange('expectedReturn',event.target.value)}  />
             </p>
             
             <p>
@@ -42,7 +42,7 @@ export default function UserInput({onChange,userInput}){
                 required
                 value={userInput.duration}
                 onChange={(event)=>
-                    onChange('initialInvestment',event.target.value)}  />
+                    onChange('duration',event.target.value)}  />
             </p>
         </div>
     </section>
